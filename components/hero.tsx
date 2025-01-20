@@ -5,7 +5,7 @@ import { FlipWords } from './ui/flipWords';
 const Hero = () => {
   const words = ['Next.js', 'React', 'TypeScript'];
   return (
-    <section className="w-screen h-screen" id="home">
+    <section className="w-screen h-screen overflow-hidden" id="home">
       <div className="container flex h-full justify-center pt-10 items-center flex-col gap-5 text-center">
         <motion.h2
           initial={{ opacity: 0.5, y: 25 }}
