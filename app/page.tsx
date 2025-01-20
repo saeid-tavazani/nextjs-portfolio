@@ -1,9 +1,8 @@
-import { Button } from '@/components/ui/button';
-
+import Hero from '@/components/hero';
 const Home = () => {
   return (
     <main>
-      <Button>hi</Button>
+      <Hero />
     </main>
   );
 };
