@@ -22,8 +22,8 @@ const item = [
 const NavbarMenu = () => {
   return (
     <header className="w-full fixed top-5">
-      <nav className="container lg:w-fit lg:rounded-full lg:bg-black-400 lg:py-2 px-1 h-fit flex lg:justify-center">
-        <ul className="flex items-center gap-3">
+      <nav className="container w-fit rounded-full bg-black-400 py-2 px-1 h-fit flex justify-center">
+        <ul className="flex items-center gap-1 lg:gap-3">
           {item.map(({ slug, text }) => (
             <li key={slug}>
               <NavbarItem href={slug} text={text} />
