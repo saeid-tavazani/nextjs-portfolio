@@ -5,8 +5,8 @@ import { FlipWords } from './ui/flipWords';
 const Hero = () => {
   const words = ['Next.js', 'React', 'TypeScript'];
   return (
-    <section className="w-screen h-screen overflow-hidden" id="home">
-      <div className="container flex h-full justify-center pt-10 items-center flex-col gap-5 text-center">
+    <section className="w-full h-screen" id="home">
+      <article className="flex h-full justify-center pt-10 items-center flex-col gap-5 text-center">
         <motion.h2
           initial={{ opacity: 0.5, y: 25 }}
           animate={{ opacity: 1, y: 0 }}
@@ -33,7 +33,7 @@ const Hero = () => {
         >
           <FaAngleDown size={40} />
         </motion.a>
-      </div>
+      </article>
     </section>
   );
 };
