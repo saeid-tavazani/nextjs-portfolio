@@ -1,8 +1,10 @@
 import Hero from '@/components/hero';
+import Projects from '@/components/projects';
 const Home = () => {
   return (
-    <main>
+    <main className="container overflow-hidden">
       <Hero />
+      <Projects />
     </main>
   );
 };
