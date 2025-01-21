@@ -1,10 +1,16 @@
+import About from '@/components/about';
 import Hero from '@/components/hero';
 import Projects from '@/components/projects';
+import { ShootingStars } from '@/components/ui/shootingStars.tsx';
+import { StarsBackground } from '@/components/ui/starsBackground';
 const Home = () => {
   return (
     <main className="container overflow-hidden">
       <Hero />
       <Projects />
+      <About />
+      <ShootingStars />
+      <StarsBackground />
     </main>
   );
 };
