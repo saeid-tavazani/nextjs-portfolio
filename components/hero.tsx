@@ -9,16 +9,18 @@ const Hero = () => {
       <article className="flex h-full justify-center pt-10 items-center flex-col gap-5 text-center">
         <motion.h2
           initial={{ opacity: 0.5, y: 25 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
           className="lg:text-6xl text-5xl font-bold"
         >
           برنامه نویسی، هنر مورد علاقه من
         </motion.h2>
         <motion.span
           initial={{ opacity: 0.5, filter: 'blur(5px)' }}
-          animate={{ opacity: 1, filter: 'blur(0)' }}
+          whileInView={{ opacity: 1, filter: 'blur(0)' }}
           transition={{ delay: 0.15 }}
+          viewport={{ once: true }}
           className="max-w-[700px] text-xl"
         >
           سلام، من سعید هستم، یک برنامه‌نویس باتجربه <b>Front-end</b> که در طراحی رابط‌های کاربری مدرن و تعاملی با فناوری‌هایی مانند
