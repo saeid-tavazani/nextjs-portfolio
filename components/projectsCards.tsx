@@ -7,7 +7,7 @@ import Image from 'next/image';
 const ProjectsCards = () => {
   return (
     <motion.div
-      className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+      className="grid gap-5 grid-cols-1 md:grid-cols-2 xl:grid-cols-3"
       initial="offscreen"
       whileInView="onscreen"
       viewport={{ once: true }}
