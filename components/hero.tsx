@@ -26,9 +26,12 @@ const Hero = () => {
         </motion.span>
         <motion.a
           className="mt-5"
-          initial={{ y: 0 }}
-          animate={{ y: 10 }}
-          transition={{ repeatType: 'loop', type: 'tween', duration: 0.8, repeat: Infinity, ease: 'easeOut' }}
+          animate={{ y: [0, 25, 0] }}
+          transition={{
+            duration: 2,
+            repeat: Infinity,
+            repeatType: 'loop',
+          }}
           href="#projects"
         >
           <FaAngleDown size={40} />
