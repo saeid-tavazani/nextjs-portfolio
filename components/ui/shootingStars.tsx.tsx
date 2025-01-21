@@ -106,7 +106,7 @@ export const ShootingStars: React.FC<ShootingStarsProps> = ({
   }, [star]);
 
   return (
-    <svg ref={svgRef} className={cn('w-full h-full fixed inset-0', className)}>
+    <svg ref={svgRef} className={cn('w-full h-full fixed inset-0 -z-10', className)}>
       {star && (
         <rect
           key={star.id}
