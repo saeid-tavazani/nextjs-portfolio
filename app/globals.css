@@ -4,6 +4,7 @@
 
 * {
   font-family: var(--font-vazirmatn);
+  scroll-behavior: smooth;
 }
 
 @layer base {
