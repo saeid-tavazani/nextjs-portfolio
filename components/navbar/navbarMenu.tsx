@@ -21,7 +21,7 @@ const item = [
 
 const NavbarMenu = () => {
   return (
-    <header className="w-full fixed top-5">
+    <header className="w-full fixed top-5 z-50">
       <nav className="container w-fit rounded-full bg-black-400 py-2 px-1 h-fit flex justify-center">
         <ul className="flex items-center gap-1 lg:gap-3">
           {item.map(({ slug, text }) => (
