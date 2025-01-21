@@ -1,5 +1,5 @@
 'use client';
-import { useHash } from '@/hook/useHash';
+import { useActiveLink } from '@/hook/useHash';
 import { motion } from 'framer-motion';
 import { ReactNode } from 'react';
 
@@ -9,8 +9,9 @@ type Props = {
 };
 
 const NavbarItem = ({ href, text }: Props) => {
-  const hash = useHash();
-  const active = hash.replace('#', '') === href || (hash === '' && href === 'home');
+  const activeLink = useActiveLink();
+
+  const active = activeLink === href || (activeLink === '' && href === 'home');
 
   return (
     <motion.a
