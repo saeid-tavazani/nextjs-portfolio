@@ -7,11 +7,11 @@ const Projects = () => {
   return (
     <section id="projects" className="flex flex-col pt-10 gap-5">
       <div className="flex items-center justify-between">
-        <h2 className="font-bold text-2xl">پروژه های من</h2>
-        <Button variant="link">
+        <h2 className="font-bold text-4xl">پروژه های من</h2>
+        {/* <Button variant="link">
           بیشتر
           <FaArrowLeftLong />
-        </Button>
+        </Button> */}
       </div>
       <ProjectsCards />
     </section>
