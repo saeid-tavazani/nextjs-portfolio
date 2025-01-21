@@ -63,6 +63,6 @@ export const links = [
   {
     slug: 'tel:09911561251',
     icon: FaPhone,
-    size: 35,
+    size: 32,
   },
 ];
