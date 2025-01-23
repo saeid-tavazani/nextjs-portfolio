@@ -5,10 +5,10 @@ const item = [
     text: 'خانه',
     slug: 'home',
   },
-  {
-    text: 'پروژه های من',
-    slug: 'projects',
-  },
+  // {
+  //   text: 'پروژه های من',
+  //   slug: 'projects',
+  // },
   {
     text: 'در باره من',
     slug: 'about',
